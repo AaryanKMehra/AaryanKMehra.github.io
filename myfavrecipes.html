@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Recipes | Aaryan K Mehra</title>
+    
+    <style>
+        /* Minimal CSS - Dark Theme */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #0f0f0f; 
+            color: #ffffff; 
+            line-height: 1.6; 
+        }
+        
+        header, main, footer { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+        
+        header { text-align: center; border-bottom: 1px solid #333; background-color: #1a1a1a; }
+        h1 { font-size: 2.5rem; color: #ffffff; margin-bottom: 0.5rem; }
+        .header-subtitle { color: #aaaaaa; }
+        .back-link { color: #ffffff; text-decoration: none; }
+        
+        .recipes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 2rem 0; }
+        
+        article { background-color: #1f1f1f; border: 1px solid #333; padding: 1.5rem; }
+        .recipe-image { width: 100%; height: 250px; object-fit: cover; display: block; margin-bottom: 1rem; }
+        article h2 { font-size: 1.8rem; color: #ffffff; margin-bottom: 1rem; border-bottom: 1px solid #444; padding-bottom: 0.5rem; }
+        
+        .recipe-meta { display: flex; gap: 2rem; margin: 1rem 0; font-size: 0.9rem; color: #aaaaaa; flex-wrap: wrap; }
+        
+        section { margin: 1.5rem 0; }
+        section h3 { font-size: 1.1rem; font-weight: bold; margin-bottom: 0.8rem; color: #ffffff; }
+        
+        ul, ol { margin-left: 1rem; }
+        li { margin-bottom: 0.5rem; color: #d0d0d0; }
+        
+        aside { background-color: #262626; border-left: 3px solid #555; padding: 1rem; margin-top: 1rem; }
+        aside h4 { color: #ffffff; font-size: 1rem; margin-bottom: 0.5rem; }
+        aside p { color: #aaaaaa; }
+        
+        footer { text-align: center; border-top: 1px solid #333; background-color: #1a1a1a; color: #aaaaaa; font-size: 0.9rem; }
+        
+        @media (max-width: 768px) {
+            header, main, footer { padding: 1rem; }
+            h1 { font-size: 2rem; }
+            .recipes-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍳 My Favorite Recipes</h1>
+        <p class="header-subtitle">A collection of delicious dishes I love to cook</p>
+        <a href="index.html" class="back-link">← Back to Portfolio</a>
+    </header>
+
+    <main>
+        <div class="recipes-grid">
+
+                <article>
+                    <img src="https://www.mysavoryadventures.com/wp-content/uploads/2023/04/restaurant-style-butter-chicken.jpg" alt="Butter Chicken" class="recipe-image">
+                    <h2>Butter Chicken</h2>
+                        <div class="recipe-meta">
+                            <span>⏱️ Prep: 20 mins</span>
+                            <span>🍳 Cook: 30 mins</span>
+                            <span>👥 Serves: 4</span>
+                        </div>
+                        <section>
+                            <h3>Ingredients:</h3>
+                            <ul>
+                                <li>800g chicken, cut into pieces</li>
+                                <li>1 cup yogurt</li>
+                                <li>2 tbsp ginger-garlic paste</li>
+                                <li>1 tbsp red chili powder</li>
+                                <li>1 tsp turmeric powder</li>
+                                <li>Salt to taste</li>
+                                <li>3 tbsp butter</li>
+                                <li>1 large onion, finely chopped</li>
+                                <li>3-4 tomatoes, blended into puree</li>
+                                <li>1 cup heavy cream</li>
+                                <li>2 tsp garam masala</li>
+                                <li>Fresh cilantro for garnish</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Instructions:</h3>
+                            <ol>
+                                <li>Marinate chicken with yogurt, ginger-garlic paste, chili powder, turmeric, and salt for at least 2 hours.</li>
+                                <li>Heat 1 tbsp butter in a pan and cook the marinated chicken until done. Set aside.</li>
+                                <li>In the same pan, add remaining butter and sauté onions until golden brown.</li>
+                                <li>Add tomato puree and cook for 5-7 minutes until the raw smell disappears.</li>
+                                <li>Add cooked chicken back to the pan and mix well.</li>
+                                <li>Stir in heavy cream and garam masala, cooking for another 5 minutes.</li>
+                                <li>Garnish with fresh cilantro and serve hot with rice or naan bread.</li>
+                            </ol>
+                        </section>
+                        <aside>
+                            <h4>💡 Chef's Tip:</h4>
+                            <p>For best results, use chicken thighs instead of breast as they stay more tender and juicy. Add a pinch of sugar if the sauce seems too acidic.</p>
+                        </aside>
+                </article>
+
+                <article>
+                    <img src="https://laurenscravings.com/wp-content/uploads/2025/04/chicken-tikka-marinade-scaled.jpg" alt="Chicken Tikka" class="recipe-image">
+                    <h2>Chicken Tikka</h2>
+                        <div class="recipe-meta">
+                            <span>⏱️ Prep: 30 mins</span>
+                            <span>🍳 Cook: 20 mins</span>
+                            <span>👥 Serves: 4</span>
+                        </div>
+                        <section>
+                            <h3>Ingredients:</h3>
+                            <ul>
+                                <li>800g boneless chicken, cut into 1.5-inch cubes</li>
+                                <li>1 cup plain yogurt</li>
+                                <li>3 tbsp ginger-garlic paste</li>
+                                <li>2 tbsp red chili powder</li>
+                                <li>1 tbsp turmeric powder</li>
+                                <li>1 tbsp cumin powder</li>
+                                <li>1 tbsp coriander powder</li>
+                                <li>2 tsp garam masala</li>
+                                <li>2 tbsp lemon juice</li>
+                                <li>Salt to taste</li>
+                                <li>Oil for grilling</li>
+                                <li>Lemon wedges and onion slices for serving</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Instructions:</h3>
+                            <ol>
+                                <li>Mix yogurt with ginger-garlic paste, red chili powder, turmeric, cumin, coriander, garam masala, lemon juice, and salt.</li>
+                                <li>Add chicken pieces to the marinade, ensuring all pieces are well coated.</li>
+                                <li>Cover and refrigerate for at least 4 hours or overnight for best flavor.</li>
+                                <li>Preheat grill or grill pan to high temperature and lightly oil it.</li>
+                                <li>Thread chicken pieces onto skewers, leaving small gaps between pieces.</li>
+                                <li>Grill for 15-20 minutes, turning occasionally until cooked through with charred spots.</li>
+                                <li>Serve hot with lemon wedges, onion slices, and mint chutney.</li>
+                            </ol>
+                        </section>
+                        <aside>
+                            <h4>💡 Chef's Tip:</h4>
+                            <p>If using wooden skewers, soak them in water for 30 minutes before grilling to prevent burning. For a smoky flavor, brush with oil and cook over charcoal.</p>
+                        </aside>
+                </article>
+
+                <article>
+                    <img src="https://myfoodstory.com/wp-content/uploads/2022/12/masala-maggi-3.jpg" alt="Maggi Noodles" class="recipe-image">
+                    <h2>Maggi (Noodles)</h2>
+                        <div class="recipe-meta">
+                            <span>⏱️ Prep: 5 mins</span>
+                            <span>🍳 Cook: 8 mins</span>
+                            <span>👥 Serves: 1-2</span>
+                        </div>
+                        <section>
+                            <h3>Ingredients:</h3>
+                            <ul>
+                                <li>1 packet Maggi noodles (80g)</li>
+                                <li>1 large onion, finely chopped</li>
+                                <li>1 green chili, chopped</li>
+                                <li>2-3 cloves garlic, minced</li>
+                                <li>1 tbsp oil or butter</li>
+                                <li>1 egg (optional)</li>
+                                <li>Salt to taste</li>
+                                <li>Black pepper to taste</li>
+                                <li>1 tsp lemon juice</li>
+                                <li>2 cups water</li>
+                                <li>Fresh cilantro for garnish</li>
+                                <li>Maggi masala seasoning pack (included)</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Instructions:</h3>
+                            <ol>
+                                <li>Heat oil or butter in a pan and add chopped onions, green chili, and garlic. Sauté for 2 minutes.</li>
+                                <li>Add 2 cups of water and bring to a boil.</li>
+                                <li>Break the Maggi noodles and add them to the boiling water along with the seasoning pack.</li>
+                                <li>Cook for 2 minutes, stirring occasionally to prevent sticking.</li>
+                                <li>If adding egg, crack it into the pan and gently stir to cook it with the noodles.</li>
+                                <li>Add salt, black pepper, and lemon juice to taste.</li>
+                                <li>Cook for another 1-2 minutes until noodles are soft and broth is well combined.</li>
+                                <li>Garnish with fresh cilantro and serve hot in a bowl.</li>
+                            </ol>
+                        </section>
+                        <aside>
+                            <h4>💡 Chef's Tip:</h4>
+                            <p>Add vegetables like carrots, peas, and bell peppers for a healthier version. A drizzle of sesame oil at the end adds a nice Asian flavor twist!</p>
+                        </aside>
+                </article>
+
+                <article>
+                    <img src="https://static.toiimg.com/thumb/53314156.cms?imgsize=1762111&width=800&height=800" alt="Chole Bhature" class="recipe-image">
+                    <h2>Chole Bhature</h2>
+                        <div class="recipe-meta">
+                            <span>⏱️ Prep: 20 mins</span>
+                            <span>🍳 Cook: 45 mins</span>
+                            <span>👥 Serves: 4</span>
+                        </div>
+                        <section>
+                            <h3>Ingredients for Bhature (Fried Bread):</h3>
+                            <ul>
+                                <li>2 cups all-purpose flour</li>
+                                <li>¼ cup yogurt</li>
+                                <li>½ tsp baking soda</li>
+                                <li>½ tsp salt</li>
+                                <li>¼ tsp asafoetida (hing)</li>
+                                <li>½ tsp sugar</li>
+                                <li>Oil for deep frying</li>
+                                <li>Warm water as needed</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Ingredients for Chole (Chickpea Curry):</h3>
+                            <ul>
+                                <li>2 cups cooked chickpeas (or 1 can)</li>
+                                <li>3 tbsp oil</li>
+                                <li>1 large onion, finely chopped</li>
+                                <li>2 tbsp ginger-garlic paste</li>
+                                <li>2 large tomatoes, chopped</li>
+                                <li>2 tsp cumin powder</li>
+                                <li>1 tsp coriander powder</li>
+                                <li>2 tsp garam masala</li>
+                                <li>1 tsp amchur (dried mango powder)</li>
+                                <li>1 tsp red chili powder</li>
+                                <li>Salt and black pepper to taste</li>
+                                <li>Water as needed</li>
+                                <li>Fresh cilantro and green chili for garnish</li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h3>Instructions:</h3>
+                            <ol>
+                                <li><strong>Making Bhature:</strong> Mix flour with yogurt, salt, baking soda, asafoetida, and sugar. Add warm water gradually to form a soft dough. Let it rest for 30 minutes.</li>
+                                <li>Divide dough into equal balls and roll into 3-inch thick discs.</li>
+                                <li>Heat oil for deep frying and fry each bhature until puffed and golden brown on both sides.</li>
+                                <li><strong>Making Chole Curry:</strong> Heat oil and sauté onions until golden brown.</li>
+                                <li>Add ginger-garlic paste and cook for 1 minute until fragrant.</li>
+                                <li>Add tomatoes and cook until they become soft and blend into the oil.</li>
+                                <li>Add cumin, coriander, garam masala, amchur, and chili powder. Stir well.</li>
+                                <li>Add cooked chickpeas and 1 cup water. Let simmer for 10-15 minutes.</li>
+                                <li>Taste and adjust salt and spices as needed.</li>
+                                <li>Serve hot bhature alongside the warm chole curry, garnished with cilantro and green chili.</li>
+                            </ol>
+                        </section>
+                        <aside>
+                            <h4>💡 Chef's Tip:</h4>
+                            <p>For softer bhature, add a pinch of baking powder along with baking soda. Serve with fresh lime pickle for an authentic taste. If chickpeas are canned, drain and rinse them before using.</p>
+                        </aside>
+                </article>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aaryan K Mehra. All recipes shared with love.</p>
+        <p>Back to <a href="index.html" style="color: #ffffff; text-decoration: none;">Portfolio</a></p>
+    </footer>
+
+</body>
+</html>
